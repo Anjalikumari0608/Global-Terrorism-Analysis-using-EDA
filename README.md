@@ -20,3 +20,58 @@ The objective of this project is to perform Exploratory Data Analysis (EDA) on t
 
 # 💼 Business Objective
 The objective of this project is to analyze the UNGTA terrorism dataset to uncover meaningful patterns and trends that can help governments, researchers, and security agencies understand the global landscape of terrorism. By identifying high-risk regions, common attack methods, major terrorist groups, and casualty patterns, the analysis aims to support better decision-making and more effective counter-terrorism strategies.
+
+# EDA Workflow based on Objective
+
+<img width="1024" height="1536" alt="WhatsApp Image 2026-04-26 at 22 52 28" src="https://github.com/user-attachments/assets/ead71e67-8226-40ae-884e-3ccc02aa096a" />
+
+# 📂 Dataset Information
+The Global Terrorism Dataset includes the following key variables:
+
+iyear – Year of incident
+country_txt – Country where attack occurred
+region_txt – Region of the world
+attacktype1_txt – Type of attack
+gname – Terrorist group name
+nkill – Number of people killed
+nwound – Number of people wounded
+
+# 🧹 Data Preprocessing
+In the data wrangling process, missing values were handled by removing columns with more than 50% null values. Remaining missing values in numerical columns were filled using median, and categorical columns were filled using mode.
+
+Duplicate records were checked and no significant duplicates were found, ensuring data quality. After cleaning, the dataset was reduced to 58 columns from the original dataset, making it more efficient for analysis.
+
+Insights: The dataset is large with over 181,000 records and contains significant missing values initially. After cleaning, the data became more structured and reliable, making it suitable for further analysis and visualization.
+
+# 🔍 Exploratory Data Analysis
+EDA was performed to understand terrorism patterns and global trends.
+
+Analysis Performed
+
+* Terrorist attacks per year
+* Country wise attack analysis
+* Region wise distribution
+* Attack type analysis
+* Terrorist group analysis
+* Casualty distribution
+* Total casualties over time
+* Region wise casualties
+* Country wise casualties
+
+# 📊 Visualizations Included
+* Number of Attacks per Year
+* Top 10 Countries with Highest Terrorist Attacks
+* Number of Terrorist Attacks by Region
+* Top 10 Most Common Attack Types
+* Top 10 Weapon Types Used in Terrorist Attacks
+* Success vs Failure of Terrorist Attacks
+* Number of Attacks by Month
+* Top 10 Target Types
+* Top 10 Attack Types
+* Total Deaths per Year due to Terrorist Attacks
+* Corelation Heatmap(Year, kill, casualities and wounded)
+* Pair Plot(Year, kill, casualities and wounded)
+
+# 📈 Key Insights
+
+  
