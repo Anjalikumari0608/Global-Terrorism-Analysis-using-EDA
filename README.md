@@ -72,6 +72,31 @@ Analysis Performed
 * Corelation Heatmap(Year, kill, casualities and wounded)
 * Pair Plot(Year, kill, casualities and wounded)
 
+# 🛠️ Technologies Used
+* Python
+* Pandas
+* Matplotlib
+* Seaborn
+* Google Colab
+
 # 📈 Key Insights
+* Terrorist attacks increased significantly after 2000
+* Middle East & North Africa region has highest attacks
+* Terrorism is concentrated in specific countries
+* Bombing and armed assault are most common attack types
+* Few terrorist groups dominate attack frequency
+* Casualties fluctuate with peaks in certain years
+* Some countries experience significantly higher casualties
+* High severity incidents are limited but impactful
+
+# 📌 Solution to Business Objective
+Based on the analysis, I suggest focusing on high-risk regions and frequently occurring attack types by strengthening security measures and surveillance systems. Governments and organizations should allocate more resources to vulnerable areas and implement preventive strategies such as intelligence monitoring and emergency response planning.
+
+Using data-driven decision making can help reduce the number of incidents, improve public safety, and enhance overall economic stability.
+
+# 📌 Conclusion
+In this project, I performed exploratory data analysis on global terrorism data to identify patterns, trends, and key factors influencing attacks. The visualizations helped in understanding high-risk regions, common attack types, and casualty distributions.
+
+The insights obtained from this analysis can support better decision-making, strengthen security policies, and minimize risks. Overall, this project highlights the importance of data analysis in improving public safety and strategic planning.
 
   
