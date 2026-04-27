@@ -28,13 +28,13 @@ The objective of this project is to analyze the UNGTA terrorism dataset to uncov
 # 📂 Dataset Information
 The Global Terrorism Dataset includes the following key variables:
 
-iyear – Year of incident
-country_txt – Country where attack occurred
-region_txt – Region of the world
-attacktype1_txt – Type of attack
-gname – Terrorist group name
-nkill – Number of people killed
-nwound – Number of people wounded
+* iyear – Year of incident
+* country_txt – Country where attack occurred
+* region_txt – Region of the world
+* attacktype1_txt – Type of attack
+* gname – Terrorist group name
+* nkill – Number of people killed
+* nwound – Number of people wounded
 
 # 🧹 Data Preprocessing
 In the data wrangling process, missing values were handled by removing columns with more than 50% null values. Remaining missing values in numerical columns were filled using median, and categorical columns were filled using mode.
