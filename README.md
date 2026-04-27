@@ -3,17 +3,15 @@
 <img width="800" height="400" alt="WhatsApp Image 2026-04-26 at 23 09 16" src="https://github.com/user-attachments/assets/8dabf73b-80be-4ab0-9822-d47c8945ec31" />
 
 # 📌Project Overview
-This project focuses on analyzing global terrorism data from 1970 to 2017 using Exploratory Data Analysis (EDA) techniques. The primary objective is to understand patterns, trends, and insights related to terrorist activities across different countries and regions. Terrorism has been a major global issue, and analyzing such data helps in identifying high-risk areas and common attack patterns.
+This project focuses on analyzing global terrorism data from 1970 to 2017 using Exploratory Data Analysis (EDA) techniques. The main objective is to identify patterns, trends, and key insights related to terrorist activities across different countries and regions.
 
-The dataset used in this project contains detailed information about terrorist incidents, including year, country, region, type of attack, number of people killed, and number of people wounded. Initially, the dataset was loaded and basic data cleaning was performed. Missing values were handled, and only relevant columns such as Year, Country, Region, Attack Type, Killed, and Wounded were selected for analysis.
+The dataset includes important information such as year, country, region, attack type, and casualties (killed and wounded). Initial steps involved data cleaning, handling missing values, and selecting relevant features for analysis.
 
-Various visualizations were created to better understand the data. A year-wise analysis showed that terrorist activities have increased significantly over time, especially after the year 2000. This indicates a rising global concern regarding terrorism. Country-wise analysis revealed that countries like Iraq, Afghanistan, and Pakistan are among the most affected by terrorist attacks.
+The analysis reveals that terrorist activities have increased significantly over time, especially after 2000. Countries like Iraq, Afghanistan, and Pakistan are among the most affected. Bombings and explosions are the most common types of attacks, followed by armed assaults. Region-wise, the Middle East and South Asia show a higher frequency of incidents.
 
-Further analysis of attack types showed that bombing and explosion are the most common forms of terrorist attacks, followed by armed assaults. This indicates that explosive-based attacks are widely used due to their high impact. Region-wise analysis highlighted that the Middle East and South Asia are the most affected regions, showing a higher frequency of attacks compared to other regions.
+Additionally, casualty analysis indicates that the number of wounded people is generally higher than fatalities, highlighting the severe impact of such incidents.
 
-Additionally, casualty analysis was performed to understand the impact of these attacks. It was observed that the number of wounded people is generally higher than the number of fatalities, indicating the severe impact of such incidents on human lives.
-
-Overall, this project provides meaningful insights into global terrorism trends. These insights can be useful for governments, security agencies, and policymakers to improve preventive measures and strategic planning. The use of data visualization makes it easier to interpret complex data and identify important patterns effectively.
+Overall, this project provides meaningful insights into global terrorism trends, helping in better understanding patterns and supporting effective decision-making for prevention and strategic planning.
 
 # 🎯 Problem Statement
 The objective of this project is to perform Exploratory Data Analysis (EDA) on the Global Terrorism Dataset to understand patterns, trends, and key factors related to terrorist activities across the world. The analysis focuses on identifying the most affected countries, regions, attack types, and yearly trends in terrorist incidents. By analyzing this data, we aim to gain meaningful insights that can help in understanding the severity and distribution of global terrorism.
